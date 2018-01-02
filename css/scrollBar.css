@@ -1,0 +1,66 @@
+body {
+    background-color: #cfcfcf;
+}
+.scroll-container {
+    width: 540px;
+    margin: 30px auto;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+}
+.scroll-tab {
+    height: 34px;
+    background-color: #f8f8f8;
+    border-bottom:1px solid #e5e5e5;
+    color: #666;
+}
+.tab-item {
+    float: left;
+    height: 34px;
+    padding: 0 20px;
+    border-right: 1px solid #e5e5e5;
+    text-align: center;
+    font: 14px/34px "微软雅黑";
+}
+.tab-active {
+    margin: -1px 0;
+    background-color: #fff;
+    border-top: 2px solid #00be3c;
+    color:#3f9474;
+}
+
+.scroll-wrap {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.scroll-cont {
+    overflow: hidden;
+    height: 100%;
+    padding: 0 15px;
+}
+.anchor {
+    text-align: center;
+    font:16px/3 "微软雅黑";
+}
+.scroll-ol p{
+    margin-bottom: 10px;
+    font: 14px/24px "微软雅黑";
+    text-indent: 2em;
+}
+
+.scroll-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background-color: #eee;
+}
+.scroll-slider {
+    position: absolute;
+    top: 0;
+    left: 1px;
+    width: 8px;
+    height: 30px;
+    background-color: #fff;
+}
